@@ -4,7 +4,7 @@ import { updateRandomColors } from "../colorRandom";
 
 type Props = {
     iContainerColor: string;
-    squareCount?: number;
+    squareCount: number;
 };
 
 type State = {
