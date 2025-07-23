@@ -1,0 +1,33 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.big-square {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    gap: 0;
+    width: 260px;
+    height: 260px;
+    border: 2px solid #333;
+    box-sizing: border-box;
+}
+
+.small-square {
+    flex: 0 0 50%;
+    height: 50%;
+    margin: 0;
+    cursor: pointer;
+}
+.reset-button {
+    display: flex;
+
+    background-color: #37f30c;
+    width: 300px;
+    height: 50px;
+    margin-top: 16px;
+    padding: 8px 12px;
+    cursor: pointer;
+}
